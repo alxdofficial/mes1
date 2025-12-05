@@ -1,0 +1,19 @@
+# SPX Lab Configuration
+
+# Chain filtering
+chain_filter:
+  min_volume: 10
+  min_open_interest: 100
+  max_spread_pct: 0.20
+  min_dte: 1
+  max_dte: 365
+
+# RND extraction
+rnd:
+  risk_free_rate: 0.05
+  num_strike_points: 500
+
+# Output paths
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
